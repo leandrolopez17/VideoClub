@@ -1,18 +1,11 @@
 {
   "clientes": {
     "006": {
-      "nombre": "un dia de mierda",
-      "fecha de alta": "peliculas de mierda",
-      "telefono": "2019",
-      "mail": "conurbano",
-      "direccion": 1000
-    },
-    "333": {
-      "nombre": "lean",
-      "fecha de alta": 2123,
-      "telefono": "el",
-      "mail": "el",
-      "direccion": "el"
+      "nombre": "213",
+      "fecha de alta (aa/mm/dd)": "123",
+      "telefono": "123",
+      "mail": "123",
+      "direccion": "345"
     },
     "231": {
       "nombre": "23112",

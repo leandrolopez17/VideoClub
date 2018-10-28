@@ -1,11 +1,11 @@
 {
   "peliculas": {
     "001": {
-      "titulo": "un dia de mierda",
-      "genero": "peliculas de mierda",
-      "anio_creacion": "2019",
-      "pais_origen": "conurbano",
-      "precio_alquiler": 1000
+      "titulo": "1233",
+      "genero": "123",
+      "anio_creacion": 123,
+      "pais_origen": "123",
+      "precio_alquiler": 123.0
     },
     "002": {
       "titulo": "un dia de mierda",
@@ -14,12 +14,26 @@
       "pais_origen": "conurbano",
       "precio_alquiler": 1000
     },
-    "1231": {
-      "titulo": "12",
-      "genero": "22",
-      "a\u00f1o_creacion": 22,
-      "pais_origen": "22",
-      "precio_alquiler": 22.0
+    "2321": {
+      "titulo": "2312",
+      "genero": "23123",
+      "a\u00f1o_creacion": 123123,
+      "pais_origen": "1231",
+      "precio_alquiler": 1231.0
+    },
+    "123123": {
+      "titulo": "123",
+      "genero": "123",
+      "a\u00f1o_creacion": 123,
+      "pais_origen": "123",
+      "precio_alquiler": 123.0
+    },
+    "12312": {
+      "titulo": "leon",
+      "genero": "accion",
+      "a\u00f1o_creacion": 2010,
+      "pais_origen": "israel",
+      "precio_alquiler": 20.0
     }
   }
 }

@@ -18,8 +18,6 @@ def encontrar_codigo(cod):
 
 def subir_diccionario(datos, codigo):
     resultado = traer_todo()
-    print(resultado["peliculas"])
-
     resultado["peliculas"][codigo] = datos
     escribir("peliculas_data", resultado)
 

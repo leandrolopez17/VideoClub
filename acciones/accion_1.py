@@ -7,7 +7,7 @@ from peliculas import subir_diccionario, encontrar_codigo
 from generar_datos import generar_data
 
 
-def agregar_al_diccionario():
+def agregar_a_peliculas():
 
     codigo = input(" Ingrese el codigo para agregar una pelicula ")
 
