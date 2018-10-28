@@ -14,7 +14,7 @@ def agregar_al_diccionario():
     funciona = False
     while funciona == False:
         pelicula = findByCodigo(codigo)
-        if pelicula == None:
+        if pelicula != None:
             codigo = input ( " ingrese el codigo nuevamente porque este ya existe" )
 
         else:

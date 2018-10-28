@@ -1,1 +1,39 @@
-{"peliculas": {"001": {"titulo": "un dia de mierda", "genero": "peliculas de mierda", "a\u00f1o_creacion": "2019", "pais_origen": "conurbano", "precio_alquiler": 1000}, "002": {"titulo": "un dia de mierda", "genero": "pelicula de mierda", "a\u00f1o_creacion": "2019", "pais_origen": "conurbano", "precio_alquiler": 1000}, "123": {"titulo": "123", "genero": "123", "a\u00f1o_creacion": 123, "pais_origen": "123", "precio_alquiler": 123.0}, "005": {"titulo": "Hola", "genero": "Comedia", "a\u00f1o_creacion": 5, "pais_origen": "Argentina", "precio_alquiler": 25.0}}}
+{
+  "peliculas": {
+    "001": {
+      "titulo": "un dia de mierda",
+      "genero": "peliculas de mierda",
+      "a\u00f1o_creacion": "2019",
+      "pais_origen": "conurbano",
+      "precio_alquiler": 1000
+    },
+    "002": {
+      "titulo": "un dia de mierda",
+      "genero": "pelicula de mierda",
+      "a\u00f1o_creacion": "2019",
+      "pais_origen": "conurbano",
+      "precio_alquiler": 1000
+    },
+    "123": {
+      "titulo": "123",
+      "genero": "123",
+      "a\u00f1o_creacion": 123,
+      "pais_origen": "123",
+      "precio_alquiler": 123.0
+    },
+    "005": {
+      "titulo": "Hola",
+      "genero": "Comedia",
+      "a\u00f1o_creacion": 5,
+      "pais_origen": "Argentina",
+      "precio_alquiler": 25.0
+    },
+    "22": {
+      "titulo": "33",
+      "genero": "33",
+      "a\u00f1o_creacion": 33,
+      "pais_origen": "33",
+      "precio_alquiler": 33.0
+    }
+  }
+}
