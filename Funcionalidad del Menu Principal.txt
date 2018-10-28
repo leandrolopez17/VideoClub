@@ -1,0 +1,1 @@
+El menu principal se encarga de interactuar con el usuario para poder dirigirlo a lo que quiere.

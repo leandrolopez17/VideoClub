@@ -1,0 +1,1 @@
+El Data Base se encarga de almacenar todas las bases de datos, y aca se van a escribir, leer los datos.

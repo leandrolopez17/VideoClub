@@ -1,0 +1,1 @@
+El modulo de acciones se encarga de todas las funcionalidades de la aplicacione. tiene muchos modulos que se encargan de cada parte del programa.

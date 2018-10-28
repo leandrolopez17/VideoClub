@@ -1,0 +1,23 @@
+clear  -> limpia la terminal
+ls -> lista los archivos y carpetas
+cd ../ -> voy una carpeta para atras
+cd {nombreCarpeta} -> entro a la carpeta
+rm {file} -> elimino un archivo
+rm -Rf {carpeta} -> elimino toda una carpeta
+cp {file} {nuevoNombre}-> copiar archivo 
+cp -Rf {carpeta} {nuevoNombre} -> copia carpeta
+mv {file} {nuevaUbicacion o nombre} -> mueve un archivo, carpeta o 
+reempla nombre
+tab -> autocompleta nombre
+mkdir {nombre} -> crear una carpeta
+pwd -> ruta donde estoy parado
+
+git clone -> clona el repositorio
+git log -> enumera todos los commits que hubo
+git status -> dice todos los archivos que cambiaste
+git add {nombreArchivo} -> agrego un archivo
+git add -A -> agregar todos los archivos
+git commit -m "{descripcion}" -> comentar los archivos que se suben
+git push -> envia los commits al repositorio
+
+git pull -> bajas los nuevos cambios
