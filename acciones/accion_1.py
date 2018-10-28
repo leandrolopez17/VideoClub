@@ -2,9 +2,6 @@ import sys
 sys.path.append('./control_libreria')
 
 from peliculas import subir_diccionario, encontrar_codigo
-##
-# with open("./base_de_datos/peliculas_data.json") as json_leer:
-##info = json.load(json_leer)
 
 
 def agregar_al_diccionario():
