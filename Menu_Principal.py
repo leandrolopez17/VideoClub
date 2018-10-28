@@ -4,6 +4,7 @@ sys.path.append('./acciones')
 from accion_1 import agregar_al_diccionario
 from accion_2 import borrar_del_diccionario
 from accion_3 import modificar_peliculas
+from accion_4 import agregar_a_clientes
 
 print()
 print('~ ~ ~ B I E N V E N I D O ~ ~ ~')
@@ -18,7 +19,8 @@ def tomar_decision(value, operation):
 decision = {
     "1": agregar_al_diccionario,
     "2": borrar_del_diccionario,
-    "3": modificar_peliculas
+    "3": modificar_peliculas,
+    "4": agregar_a_clientes
 
 }
 
