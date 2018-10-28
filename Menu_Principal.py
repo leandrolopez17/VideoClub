@@ -3,6 +3,7 @@ sys.path.append('./acciones')
 
 from accion_1 import agregar_al_diccionario
 from accion_2 import borrar_del_diccionario
+from accion_3 import modificar_peliculas
 
 print()
 print('~ ~ ~ B I E N V E N I D O ~ ~ ~')
@@ -16,11 +17,14 @@ def tomar_decision(value, operation):
 
 decision = {
     "1": agregar_al_diccionario,
-    "2": borrar_del_diccionario
+    "2": borrar_del_diccionario,
+    "3": modificar_peliculas
 
 }
 
-while True:
+seguir = True
+
+while seguir == True:
     print('///////////////////////////////////////////////////////////////////////////')
     print('// (1)  Añadir un cliente                                                                   //')
     print('// (2)  Eliminar un cliente                                                                 //')
@@ -41,3 +45,9 @@ while True:
     accion = input("Ingrese numero de operacion que desea realizar: ")
 
     tomar_decision(accion, decision)
+
+    decidir = input(" ingrese si, si desea seguir ")
+
+    if decidir != "si":
+        seguir = False
+        print(" Hasta luego, Nos vemos pronto! ")

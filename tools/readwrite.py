@@ -10,6 +10,6 @@ def leer(file):
 
 def escribir(file, datos):
     with open("./base_de_datos/" + file + ".json", "w") as escribir:
-        json.dump(datos, escribir)
+        json.dump(datos, escribir, indent=2)
 
     return None

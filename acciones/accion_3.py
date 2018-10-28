@@ -2,20 +2,19 @@ import sys
 sys.path.append('./control_libreria')
 sys.path.append('./tools')
 
-
 from peliculas import subir_diccionario, encontrar_codigo
 from generar_datos import generar_data
 
 
-def agregar_al_diccionario():
+def modificar_peliculas():
 
-    codigo = input(" Ingrese el codigo para agregar una pelicula ")
+    codigo = input(" Ingrese el codigo para modificar una pelicula ")
 
     funciona = False
     while funciona == False:
         pelicula = encontrar_codigo(codigo)
-        if pelicula != None:
-            codigo = input(" ingrese el codigo nuevamente porque ya existe")
+        if pelicula == None:
+            codigo = input(" ingrese el codigo nuevamente porque no existe")
 
         else:
             funciona = True
@@ -37,7 +36,7 @@ def peliculas():
             "type": "string"
         },
         {
-            "label": "año_creacion",
+            "label": "anio_creacion",
             "type": "int"
         },
         {

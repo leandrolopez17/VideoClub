@@ -27,6 +27,5 @@ def subir_diccionario(datos, codigo):
 def eliminar_del_diccionario(codigo):
 
     resultado = traer_todo()
-    print(resultado)
     (resultado["peliculas"]).pop(codigo)
     escribir("peliculas_data", resultado)
