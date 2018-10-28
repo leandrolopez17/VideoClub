@@ -1,1 +1,0 @@
-La libreria se encarga de leer y escribir los archivos. 

@@ -1,24 +1,32 @@
 import sys
 sys.path.insert(0, './tools')
 import json
-from readwrite import read, write
+from readwrite import leer, escribir
 
-def getAll ():
-    return read("peliculas_data")
 
-def findByCodigo(cod):
-    resultados = getAll()
+def traer_todo():
+    return leer("peliculas_data")
+
+
+def encontrar_codigo(cod):
+    resultados = traer_todo()
     data = None
     if resultados["peliculas"].__contains__(cod):
         data = resultados["peliculas"][cod]
     return data
-        
-def add_dictionary(datos,codigo):
-    resultado = getAll()
+
+
+def subir_diccionario(datos, codigo):
+    resultado = traer_todo()
     print(resultado["peliculas"])
-        
+
     resultado["peliculas"][codigo] = datos
-    write("peliculas_data", resultado)  
+    escribir("peliculas_data", resultado)
 
 
+def eliminar_del_diccionario(codigo):
 
+    resultado = traer_todo()
+    print(resultado)
+    (resultado["peliculas"]).pop(codigo)
+    escribir("peliculas_data", resultado)

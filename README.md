@@ -1,4 +1,4 @@
-# VideoClubhaha
+# VideoClub
 
 Trabajo Practico “Video Club”
 
@@ -25,4 +25,3 @@ Y las siguientes consultas:
 4. Mostrar la lista de socios y la cantidad de películas que han alquilado.
 5. Calcular lo que un socio determinado debe abonar por el alquiler de las películas.
 6. Mostrar la lista de películas que no han sido alquiladas.
-
