@@ -12,7 +12,7 @@ tab -> autocompleta nombre
 mkdir {nombre} -> crear una carpeta
 pwd -> ruta donde estoy parado
 
-git clone -> clona el repositorio 
+git clone {URL} -> clona el repositorio 
 git log -> enumera todos los commits que hubo
 git status -> dice todos los archivos que cambiaste
 git add {nombreArchivo} -> agrego un archivo
@@ -20,4 +20,4 @@ git add -A -> agregar todos los archivos
 git commit -m "{descripcion}" -> comentar los archivos que se suben
 git push -> envia los commits al repositorio
 git pull -> bajas los nuevos cambios
-git checkout -> vuelve un archivo al estado anterior antes que lo baje
+git checkout {nombreArchivo} ->  vuelve un archivo al estado anterior antes que lo baje
