@@ -3,10 +3,11 @@ diccionario = Data.diccionario
 
 import json
 
-que_queres = input( " si desea clientes ponga clientes, si desea peliculas, ponga peliculas " )
+que_queres = input(
+    " si desea clientes ponga clientes, si desea peliculas, ponga peliculas ")
 
 if que_queres == "peliculas":
-    
+
     import Modulo1
 
     desea = Modulo1.desea
@@ -17,7 +18,7 @@ if que_queres == "peliculas":
 
         with open('Data.py', 'w') as file:
 
-             file.write(json.dumps(diccionario))
+            file.escribir(json.dumps(diccionario))
 
     elif desea == "bajar":
 
@@ -30,10 +31,10 @@ if que_queres == "peliculas":
     for n in diccionario["peliculas"]:
 
         print(n)
-        
+
         for r in (diccionario["peliculas"])[n]:
-            
-            print(r + " :",((diccionario["peliculas"])[n])[r])
+
+            print(r + " :", ((diccionario["peliculas"])[n])[r])
             print("")
 
 
@@ -55,12 +56,10 @@ if que_queres == "clientes":
 
         Modulo2.modificar_clientes(diccionario)
 
-
-        
     for n in diccionario["clientes"]:
 
         print(n)
-        
+
         for r in (diccionario["clientes"])[n]:
-            print(r + " :",((diccionario["clientes"])[n])[r])
+            print(r + " :", ((diccionario["clientes"])[n])[r])
             print("")

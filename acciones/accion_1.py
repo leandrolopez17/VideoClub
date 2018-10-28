@@ -1,7 +1,7 @@
 import sys
 sys.path.append('./control_libreria')
 
-from peliculas import add_dictionary, findByCodigo
+from peliculas import subir_diccionario, encontrar_codigo
 ##
 # with open("./base_de_datos/peliculas_data.json") as json_leer:
 ##info = json.load(json_leer)
@@ -13,7 +13,7 @@ def agregar_al_diccionario():
 
     funciona = False
     while funciona == False:
-        pelicula = findByCodigo(codigo)
+        pelicula = encontrar_codigo(codigo)
         if pelicula != None:
             codigo = input(" ingrese el codigo nuevamente porque ya existe")
 
@@ -22,7 +22,7 @@ def agregar_al_diccionario():
 
     datos = peliculas()
 
-    return add_dictionary(datos, codigo)
+    return subir_diccionario(datos, codigo)
 
 
 def generar_data(campos):
