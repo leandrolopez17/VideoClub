@@ -16,4 +16,6 @@ def generar_data(campos):
 
         datos[key] = data
 
+    datos["alquiler"] = []
+
     return datos

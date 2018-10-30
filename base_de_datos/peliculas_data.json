@@ -1,53 +1,19 @@
 {
   "peliculas": {
-    "001": {
-      "titulo": "1233",
-      "genero": "123",
-      "anio_creacion": 123,
-      "pais_origen": "123",
-      "precio_alquiler": 123.0
-    },
-    "002": {
-      "titulo": "un dia de mierda",
-      "genero": "pelicula de mierda",
-      "anio_creacion": "2019",
-      "pais_origen": "conurbano",
-      "precio_alquiler": 1000
-    },
-    "123123": {
-      "titulo": "123",
-      "genero": "123",
-      "a\u00f1o_creacion": 123,
-      "pais_origen": "123",
-      "precio_alquiler": 123.0
-    },
-    "12312": {
-      "titulo": "leon",
-      "genero": "accion",
-      "a\u00f1o_creacion": 2010,
-      "pais_origen": "israel",
-      "precio_alquiler": 20.0
-    },
-    "1231": {
-      "titulo": "1231",
-      "genero": "1231",
-      "anio_creacion": 1231,
-      "pais_origen": "1231",
-      "precio_alquiler": 1231.0
-    },
-    "333": {
-      "titulo": "3333",
-      "genero": "3333",
-      "anio_creacion": 3333,
-      "pais_origen": "3333",
-      "precio_alquiler": 3333.0
-    },
-    "2313": {
+    "12323": {
       "titulo": "123123",
-      "genero": "23123",
+      "genero": "123123",
       "anio_creacion": 123123,
-      "pais_origen": "3213",
-      "precio_alquiler": 231.0
+      "pais_origen": "123123",
+      "precio_alquiler": 333.0,
+      "alquiler": [
+        {
+          "1": {
+            "codigo_cliente": "231",
+            "fecha": "123123"
+          }
+        }
+      ]
     }
   }
 }

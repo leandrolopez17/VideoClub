@@ -1,13 +1,13 @@
 import sys
 sys.path.append('./control_libreria')
 
-from peliculas import encontrar_codigo
+from peliculas import encontrar_codigo_peliculas
 
 
 def agregar_peli(codigo):
     funciona = False
     while funciona == False:
-        buscar = encontrar_codigo(codigo)
+        buscar = encontrar_codigo_peliculas(codigo)
         if buscar != None:
             codigo = input(" ingrese el codigo nuevamente porque ya existe")
 
@@ -18,7 +18,7 @@ def agregar_peli(codigo):
 def modificar_peli(codigo):
     funciona = False
     while funciona == False:
-        buscar = encontrar_codigo(codigo)
+        buscar = encontrar_codigo_peliculas(codigo)
         if buscar == None:
             codigo = input(
                 " ingrese el codigo nuevamente porque no se encuentra ")

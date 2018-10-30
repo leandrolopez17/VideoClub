@@ -8,7 +8,7 @@ def traer_todo():
     return leer("clientes_data")
 
 
-def encontrar_codigo(cod):
+def encontrar_codigo_clientes(cod):
     resultados = traer_todo()
     data = None
     if resultados["clientes"].__contains__(cod):

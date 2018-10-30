@@ -1,12 +1,5 @@
 {
   "clientes": {
-    "006": {
-      "nombre": "213",
-      "fecha de alta (aa/mm/dd)": "123",
-      "telefono": "123",
-      "mail": "123",
-      "direccion": "345"
-    },
     "231": {
       "nombre": "23112",
       "fecha de alta (aa/mm/dd)": "123",
@@ -14,19 +7,19 @@
       "mail": "123",
       "direccion": "123"
     },
-    "33": {
-      "nombre": "12",
-      "fecha de alta (aa/mm/dd)": "312",
-      "telefono": "312",
-      "mail": "3123",
-      "direccion": "12"
-    },
     "312": {
       "nombre": "lean",
       "fecha": "23123",
       "telefono": "",
       "mail": "42",
       "direccion": "12"
+    },
+    "123123": {
+      "nombre": "123",
+      "fecha": "12312",
+      "telefono": "13123",
+      "mail": "123123",
+      "direccion": "123123"
     }
   }
 }

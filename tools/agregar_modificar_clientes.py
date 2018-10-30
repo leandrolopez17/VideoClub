@@ -1,13 +1,13 @@
 import sys
 sys.path.append('./control_libreria')
 
-from clientes import encontrar_codigo
+from clientes import encontrar_codigo_clientes
 
 
 def agregar_client(codigo):
     funciona = False
     while funciona == False:
-        buscar = encontrar_codigo(codigo)
+        buscar = encontrar_codigo_clientes(codigo)
         if buscar != None:
             codigo = input(" ingrese el codigo nuevamente porque ya existe")
 
@@ -18,7 +18,7 @@ def agregar_client(codigo):
 def modificar_client(codigo):
     funciona = False
     while funciona == False:
-        buscar = encontrar_codigo(codigo)
+        buscar = encontrar_codigo_clientes(codigo)
         if buscar == None:
             codigo = input(
                 " ingrese el codigo nuevamente porque no se encuentra ")

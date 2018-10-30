@@ -2,7 +2,7 @@ import sys
 sys.path.append('./control_libreria')
 sys.path.append('./tools')
 
-from clientes import subir_diccionario, encontrar_codigo
+from clientes import subir_diccionario, encontrar_codigo_clientes
 from generar_datos import generar_data
 from agregar_modificar_clientes import modificar_client
 

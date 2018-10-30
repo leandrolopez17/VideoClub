@@ -2,7 +2,7 @@ import sys
 sys.path.append('./control_libreria')
 sys.path.append('./tools')
 
-from peliculas import subir_diccionario, encontrar_codigo
+from peliculas import subir_diccionario, encontrar_codigo_peliculas
 from generar_datos import generar_data
 from agregar_modificar_peliculas import modificar_peli
 

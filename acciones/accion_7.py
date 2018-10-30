@@ -1,7 +1,7 @@
 import sys
 sys.path.append('./control_libreria')
 
-from clientes import encontrar_codigo
+from clientes import encontrar_codigo_clientes
 
 
 def consultar_datos_socio():
@@ -10,7 +10,7 @@ def consultar_datos_socio():
 
     funciona = False
     while funciona == False:
-        cliente = encontrar_codigo(codigo)
+        cliente = encontrar_codigo_clientes(codigo)
         if cliente == None:
             codigo = input(" ingrese el codigo nuevamente porque no existe")
 
