@@ -5,20 +5,14 @@ sys.path.append('./tools')
 
 from clientes import subir_diccionario, encontrar_codigo
 from generar_datos import generar_data
+from agregar_modificar_clientes import agregar_client
 
 
 def agregar_a_clientes():
 
     codigo = input(" Ingrese el codigo para agregar un cliente ")
 
-    funciona = False
-    while funciona == False:
-        cliente = encontrar_codigo(codigo)
-        if cliente != None:
-            codigo = input(" ingrese el codigo nuevamente porque ya existe")
-
-        else:
-            funciona = True
+    agregar_client(codigo)
 
     datos = clientes()
 
@@ -34,7 +28,8 @@ def clientes():
         },
         {
             "label": "fecha de alta (aa/mm/dd)",
-            "type": "string"
+            "type": "string",
+            "key": "fecha"
         },
         {
             "label": "telefono",

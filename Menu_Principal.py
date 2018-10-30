@@ -7,9 +7,10 @@ from accion_3 import modificar_peliculas
 from accion_4 import agregar_a_clientes
 from accion_5 import borrar_de_clientes
 from accion_6 import modificar_clientes
+from accion_7 import consultar_datos_socio
 
 print()
-print('~ ~ ~ B I E N V E N I D O ~ ~ ~')
+print('¿?¿?¿?¿? LE DAMOS LA BIENVENIDA A NUESTRO PORTAL VIDEOCLUB ¿?¿?¿?¿?')
 print()
 
 
@@ -24,14 +25,15 @@ decision = {
     "3": modificar_peliculas,
     "4": agregar_a_clientes,
     "5": borrar_de_clientes,
-    "6": modificar_clientes
+    "6": modificar_clientes,
+    "7": consultar_datos_socio
 
 }
 
 seguir = True
 
 while seguir == True:
-    print('///////////////////////////////////////////////////////////////////////////')
+    print('{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{')
     print('// (1)  Añadir una pelicula                                                                 //')
     print('// (2)  Eliminar una pelicula                                                               //')
     print('// (3)  Modificar una pelicula                                                              //')
@@ -44,7 +46,7 @@ while seguir == True:
     print('// (10) Mostrar la lista de socios y la cantidad de películas que han alquilado             //')
     print('// (11) Calcular lo que un socio determinado debe abonar por el alquiler de las películas   //')
     print('// (12) Mostrar la lista de películas que no han sido alquiladas                            //')
-    print('///////////////////////////////////////////////////////////////////////////')
+    print('}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}')
 
     print()
 

@@ -4,20 +4,14 @@ sys.path.append('./tools')
 
 from clientes import subir_diccionario, encontrar_codigo
 from generar_datos import generar_data
+from agregar_modificar_clientes import modificar_client
 
 
 def modificar_clientes():
 
     codigo = input(" Ingrese el codigo para modificar una pelicula ")
 
-    funciona = False
-    while funciona == False:
-        cliente = encontrar_codigo(codigo)
-        if cliente == None:
-            codigo = input(" ingrese el codigo nuevamente porque no existe")
-
-        else:
-            funciona = True
+    modificar_client(codigo)
 
     datos = clientes()
 

@@ -1,5 +1,5 @@
 import sys
-sys.path.insert(0, './tools')
+sys.path.append('./tools')
 import json
 from readwrite import leer, escribir
 

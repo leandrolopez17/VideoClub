@@ -4,20 +4,14 @@ sys.path.append('./tools')
 
 from peliculas import subir_diccionario, encontrar_codigo
 from generar_datos import generar_data
+from agregar_modificar_peliculas import modificar_peli
 
 
 def modificar_peliculas():
 
     codigo = input(" Ingrese el codigo para modificar una pelicula ")
 
-    funciona = False
-    while funciona == False:
-        pelicula = encontrar_codigo(codigo)
-        if pelicula == None:
-            codigo = input(" ingrese el codigo nuevamente porque no existe")
-
-        else:
-            funciona = True
+    modificar_peli(codigo)
 
     datos = peliculas()
 

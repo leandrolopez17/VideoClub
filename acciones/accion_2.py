@@ -1,21 +1,15 @@
 import sys
 sys.path.append('./control_libreria')
+sys.path.append('./tools')
 
 from peliculas import encontrar_codigo, eliminar_del_diccionario
+from agregar_modificar_peliculas import modificar_peli
 
 
 def borrar_de_peliculas():
 
     codigo = input(" ingrese el codigo a borrar de pelicula ")
 
-    funciona = False
-    while funciona == False:
-        pelicula = encontrar_codigo(codigo)
-        if pelicula == None:
-            codigo = input(
-                " ingrese el codigo devuelta porque no hay nada para borrar")
-
-        else:
-            funciona = True
+    modificar_peli(codigo)
 
     return (eliminar_del_diccionario(codigo))

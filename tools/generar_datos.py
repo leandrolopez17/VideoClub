@@ -9,6 +9,11 @@ def generar_data(campos):
         if (campo["type"] == "float"):
             data = float(data)
 
-        datos[campo["label"]] = data
+        if (campo.__contains__("key")):
+            key = campo["key"]
+        else:
+            key = campo["label"]
+
+        datos[key] = data
 
     return datos
