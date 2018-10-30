@@ -4,6 +4,9 @@ sys.path.append('./acciones') #importa todos los python a esa carpeta
 from accion_1 import agregar_al_diccionario #importa la funcion agregar_al_diccionario desde el archivo accion 1
 from accion_2 import borrar_del_diccionario #importa la funcion borrar_del_diccionario desde el archivo accion 2
 from accion_3 import modificar_peliculas #importa la funcion modificar_peliculas desde el archivo accion 3
+from accion_4 import agregar_a_clientes
+from accion_5 import borrar_de_clientes
+from accion_6 import modificar_clientes
 
 print() # imprimo salto de linea
 print('~ ~ ~ B I E N V E N I D O ~ ~ ~') # imprimo texto
@@ -18,6 +21,9 @@ decision = {
     "1": agregar_al_diccionario, # elemento del diccionario cuya clave o indice es = "1" y su valor es una funcion llamada agregar_al_diccionario
     "2": borrar_del_diccionario, # elemento del diccionario cuyo valor es = "2" y su valor es una funcion llamada borrar_del_diccionario
     "3": modificar_peliculas # elemento del diccionario cuyo valor es = "3" y su valor es una funcion llamada modificar_peliculas
+    "4": agregar_a_clientes,
+    "5": borrar_de_clientes,
+    "6": modificar_clientes
 }
 
 seguir = True # define una variable le asigno el valor True (Boolean)
@@ -38,6 +44,8 @@ while seguir == True: # Asigno una condicion al While, si esta se cumple arranca
     print('// (11) Calcular lo que un socio determinado debe abonar por el alquiler de las películas   //') # imprime
     print('// (12) Mostrar la lista de películas que no han sido alquiladas                            //') # imprime
     print('///////////////////////////////////////////////////////////////////////////') # imprime
+
+
 
     print() # imprime salto de linea
 

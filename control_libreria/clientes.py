@@ -5,25 +5,25 @@ from readwrite import leer, escribir
 
 
 def traer_todo():
-    return leer("peliculas_data")
+    return leer("clientes_data")
 
 
 def encontrar_codigo(cod):
     resultados = traer_todo()
     data = None
-    if resultados["peliculas"].__contains__(cod):
-        data = resultados["peliculas"][cod]
+    if resultados["clientes"].__contains__(cod):
+        data = resultados["clientes"][cod]
     return data
 
 
 def subir_diccionario(datos, codigo):
     resultado = traer_todo()
-    resultado["peliculas"][codigo] = datos
-    escribir("peliculas_data", resultado)
+    resultado["clientes"][codigo] = datos
+    escribir("clientes_data", resultado)
 
 
 def eliminar_del_diccionario(codigo):
 
     resultado = traer_todo()
-    (resultado["peliculas"]).pop(codigo)
-    escribir("peliculas_data", resultado)
+    (resultado["clientes"]).pop(codigo)
+    escribir("clientes_data", resultado)

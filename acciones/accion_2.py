@@ -3,8 +3,8 @@ sys.path.append('./control_libreria')
 
 from peliculas import encontrar_codigo, eliminar_del_diccionario
 
+def borrar_de_peliculas():  # define una funcion borrar_de_peliculas
 
-def borrar_del_diccionario(): # define una funcion borrar_del_diccionario
 
     codigo = input(" ingrese el codigo a borrar de pelicula ") # pide al usuario que ingrese el codigo de la pelicula para borrar
 

@@ -7,8 +7,7 @@ from peliculas import subir_diccionario, encontrar_codigo
 from generar_datos import generar_data
 
 
-def agregar_al_diccionario(): # agrego la funcion de agregar_al_diccionario
-
+def agregar_a_peliculas():# agrego la funcion de agregar_a_peliculas
     codigo = input(" Ingrese el codigo para agregar una pelicula ") # pido al usuario que ingrese el codigo de la pelicula
 
     funciona = False # le doy un valor a funciona
