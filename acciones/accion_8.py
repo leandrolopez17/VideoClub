@@ -10,7 +10,7 @@ def precio_pelicula():
 
     codigo = input(" ingrese el codigo para buscar el precio de una pelicula ")
 
-    modificar_peli(codigo)
+    codigo = modificar_peli(codigo)
 
     datos = encontrar_codigo_peliculas(codigo)
 

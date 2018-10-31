@@ -12,7 +12,7 @@ def agregar_a_clientes():
 
     codigo = input(" Ingrese el codigo para agregar un cliente ")
 
-    agregar_client(codigo)
+    codigo = agregar_client(codigo)
 
     datos = clientes()
 

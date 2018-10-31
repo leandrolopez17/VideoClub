@@ -10,6 +10,6 @@ def borrar_de_clientes():
 
     codigo = input(" ingrese el codigo a borrar de pelicula ")
 
-    modificar_client(codigo)
+    codigo = modificar_client(codigo)
 
     return (eliminar_del_diccionario(codigo))

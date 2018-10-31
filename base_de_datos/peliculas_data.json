@@ -8,10 +8,16 @@
       "precio_alquiler": 333.0,
       "alquiler": [
         {
-          "1": {
-            "codigo_cliente": "231",
-            "fecha": "123123"
-          }
+          "codigo_cliente": "12323",
+          "fecha": "123123"
+        },
+        {
+          "codigo_cliente": "231",
+          "fecha": "12323"
+        },
+        {
+          "codigo_cliente": "231",
+          "fecha": "1231"
         }
       ]
     }

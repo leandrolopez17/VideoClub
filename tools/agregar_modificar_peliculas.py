@@ -14,6 +14,8 @@ def agregar_peli(codigo):
         else:
             funciona = True
 
+    return codigo
+
 
 def modificar_peli(codigo):
     funciona = False
@@ -25,3 +27,5 @@ def modificar_peli(codigo):
 
         else:
             funciona = True
+
+    return codigo

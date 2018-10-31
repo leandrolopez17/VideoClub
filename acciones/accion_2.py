@@ -10,6 +10,6 @@ def borrar_de_peliculas():
 
     codigo = input(" ingrese el codigo a borrar de pelicula ")
 
-    modificar_peli(codigo)
+    codigo = modificar_peli(codigo)
 
     return (eliminar_del_diccionario(codigo))

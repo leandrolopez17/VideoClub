@@ -11,7 +11,7 @@ def modificar_clientes():
 
     codigo = input(" Ingrese el codigo para modificar una pelicula ")
 
-    modificar_client(codigo)
+    codigo = modificar_client(codigo)
 
     datos = clientes()
 

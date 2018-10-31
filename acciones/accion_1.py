@@ -12,7 +12,7 @@ def agregar_a_peliculas():
 
     codigo = input(" Ingrese el codigo para agregar una pelicula ")
 
-    agregar_peli(codigo)
+    codigo = agregar_peli(codigo)
 
     datos = peliculas()
 

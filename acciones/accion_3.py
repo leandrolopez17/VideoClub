@@ -11,7 +11,7 @@ def modificar_peliculas():
 
     codigo = input(" Ingrese el codigo para modificar una pelicula ")
 
-    modificar_peli(codigo)
+    codigo = modificar_peli(codigo)
 
     datos = peliculas()
 

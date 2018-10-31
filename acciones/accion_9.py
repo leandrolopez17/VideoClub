@@ -14,15 +14,15 @@ def alquiler_pelicula():
 
     codigo_cliente = input(" ingrese el codigo del que alquilo la pelicula ")
 
-    modificar_client(codigo_cliente)
+    codigo_cliente = modificar_client(codigo_cliente)
 
     codigo_pelicula = input(
         " ingrese el codigo de la pelicula que se ha alquilado ")
 
-    modificar_peli(codigo_pelicula)
+    codigo_pelicula = modificar_peli(codigo_pelicula)
 
     fecha = input(" ingrese la fecha cuando la/las alquilo ")
 
-    data = {cantidad: {"codigo_cliente": codigo_cliente, "fecha": fecha}}
+    data = {"codigo_cliente": codigo_cliente, "fecha": fecha}
 
     subir_alquiler(data, codigo_pelicula)

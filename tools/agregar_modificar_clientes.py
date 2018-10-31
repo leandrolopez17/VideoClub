@@ -14,6 +14,8 @@ def agregar_client(codigo):
         else:
             funciona = True
 
+    return codigo
+
 
 def modificar_client(codigo):
     funciona = False
@@ -25,3 +27,5 @@ def modificar_client(codigo):
 
         else:
             funciona = True
+
+    return codigo
