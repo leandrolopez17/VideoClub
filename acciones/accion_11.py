@@ -7,7 +7,6 @@ from clientes import traer_todo_clientes
 
 
 def socios():
-
     data_peli = traer_todo_peliculas()
     data_client = traer_todo_clientes()
 

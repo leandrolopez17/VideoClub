@@ -8,18 +8,31 @@
       "precio_alquiler": 333.0,
       "alquiler": [
         {
-          "codigo_cliente": "12323",
-          "fecha": "123123"
-        },
-        {
-          "codigo_cliente": "231",
-          "fecha": "12323"
-        },
-        {
-          "codigo_cliente": "231",
-          "fecha": "1231"
+          "codigo_cliente": "312",
+          "fecha": "23/6/2018"
         }
       ]
+    },
+    "123123": {
+      "titulo": "lsd",
+      "genero": "sadkas",
+      "anio_creacion": 12,
+      "pais_origen": "213",
+      "precio_alquiler": 23.0,
+      "alquiler": [
+        {
+          "codigo_cliente": "231",
+          "fecha": "17/03/2018"
+        }
+      ]
+    },
+    "012": {
+      "titulo": "asd",
+      "genero": "123",
+      "anio_creacion": 23,
+      "pais_origen": "123",
+      "precio_alquiler": 23.0,
+      "alquiler": []
     }
   }
 }

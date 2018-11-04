@@ -12,6 +12,8 @@ from accion_8 import precio_pelicula
 from accion_9 import alquiler_pelicula
 from accion_10 import consultar_pelicula
 from accion_11 import socios
+from accion_12 import precio_pagar
+from accion_13 import no_alquiladas
 
 print()
 print('¿?¿?¿?¿? LE DAMOS LA BIENVENIDA A NUESTRO PORTAL VIDEOCLUB ¿?¿?¿?¿?')
@@ -34,7 +36,9 @@ decision = {
     "8": precio_pelicula,
     "9": alquiler_pelicula,
     "10": consultar_pelicula,
-    "11": socios
+    "11": socios,
+    "12": precio_pagar,
+    "13": no_alquiladas
 
 }
 

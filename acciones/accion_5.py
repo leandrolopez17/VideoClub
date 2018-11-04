@@ -8,7 +8,7 @@ from agregar_modificar_clientes import modificar_client
 
 def borrar_de_clientes():
 
-    codigo = input(" ingrese el codigo a borrar de pelicula ")
+    codigo = input(" ingrese el codigo a borrar de cliente ")
 
     codigo = modificar_client(codigo)
 

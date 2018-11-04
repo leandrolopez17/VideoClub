@@ -9,7 +9,7 @@ from agregar_modificar_clientes import modificar_client
 
 def modificar_clientes():
 
-    codigo = input(" Ingrese el codigo para modificar una pelicula ")
+    codigo = input(" Ingrese el codigo para modificar un cliente ")
 
     codigo = modificar_client(codigo)
 
