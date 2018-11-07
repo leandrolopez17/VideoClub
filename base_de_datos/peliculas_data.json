@@ -19,12 +19,7 @@
       "anio_creacion": 12,
       "pais_origen": "213",
       "precio_alquiler": 23.0,
-      "alquiler": [
-        {
-          "codigo_cliente": "231",
-          "fecha": "17/03/2018"
-        }
-      ]
+      "alquiler": []
     },
     "012": {
       "titulo": "asd",
@@ -33,6 +28,19 @@
       "pais_origen": "123",
       "precio_alquiler": 23.0,
       "alquiler": []
+    },
+    "gorila": {
+      "titulo": "gorila_en_estqa",
+      "genero": "accion",
+      "anio_creacion": 1997,
+      "pais_origen": "irlanda",
+      "precio_alquiler": 17.0,
+      "alquiler": [
+        {
+          "codigo_cliente": "12323",
+          "fecha": "17/08/2018"
+        }
+      ]
     }
   }
 }

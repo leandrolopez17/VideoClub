@@ -4,12 +4,19 @@ sys.path.append('./tools')
 
 from clientes import encontrar_codigo_clientes, eliminar_del_diccionario
 from agregar_modificar_clientes import modificar_client
+from buscar_cliente_debe import buscar
 
 
 def borrar_de_clientes():
 
     codigo = input(" ingrese el codigo a borrar de cliente ")
 
-    codigo = modificar_client(codigo)
+    if buscar(codigo) != True:
 
-    return (eliminar_del_diccionario(codigo))
+        codigo = modificar_client(codigo)
+
+        return (eliminar_del_diccionario(codigo))
+
+    else:
+
+        return (print(" primero debe saldar cuentas para eliminar al cliente "))
