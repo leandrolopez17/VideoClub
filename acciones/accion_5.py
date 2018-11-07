@@ -15,8 +15,8 @@ def borrar_de_clientes():
 
         codigo = modificar_client(codigo)
 
-        return (eliminar_del_diccionario(codigo))
+        eliminar_del_diccionario(codigo)
 
     else:
 
-        return (print(" primero debe saldar cuentas para eliminar al cliente "))
+        print(" primero debe saldar cuentas para eliminar al cliente ")

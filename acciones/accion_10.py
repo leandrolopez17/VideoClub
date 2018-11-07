@@ -3,6 +3,7 @@ sys.path.append('./control_libreria')
 sys.path.append('./tools')
 
 from peliculas import encontrar_codigo_peliculas
+from clientes import traer_todo_clientes
 from agregar_modificar_peliculas import modificar_peli
 
 
@@ -23,4 +24,15 @@ def consultar_pelicula():
             if s == "codigo_cliente" and n[s] not in consulta:
                 consulta.append(n[s])
 
-    print(consulta)
+    todo = traer_todo_clientes()
+
+    cant = 0
+
+    for r in consulta:
+        for s in (todo["clientes"]):
+            if s == r:
+                cant += 1
+                print(" el cliente numero " + str(cant) +
+                      " que ha alquilado " + peli)
+                for l in (todo["clientes"][s]):
+                    print(l + ": " + (todo["clientes"][s][l]))

@@ -14,4 +14,9 @@ def no_alquiladas():
         if len(todo["peliculas"][n]["alquiler"]) == 0:
             pelis_no.append(n)
 
-    print(" la peliculas no alquiladas son ", pelis_no)
+    print(" la peliculas no alquiladas son: ")
+
+    cont = 1
+    for r in (pelis_no):
+        print(str(cont) + ": " + r)
+        cont += 1

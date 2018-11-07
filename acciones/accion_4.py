@@ -29,7 +29,7 @@ def clientes():
         {
             "label": "fecha de alta (aa/mm/dd)",
             "type": "string",
-            "key": "fecha"
+            "key": "fecha_alta"
         },
         {
             "label": "telefono",

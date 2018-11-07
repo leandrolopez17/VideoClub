@@ -11,7 +11,8 @@ from verificar_fechas import verificar_fecha
 
 def alquiler_pelicula():
 
-    codigo_cliente = input(" ingrese el codigo del que alquilo la pelicula ")
+    codigo_cliente = input(
+        " ingrese el codigo del cliente que alquilo la pelicula ")
 
     codigo_cliente = modificar_client(codigo_cliente)
 

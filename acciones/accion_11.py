@@ -22,4 +22,5 @@ def socios():
                     variable = r[f]
                     dicc[variable] += 1
 
-    print(dicc)
+    for s in dicc:
+        print(s + " ha alquilado un total de: " + str(dicc[s]) + " peliculas ")

@@ -6,12 +6,7 @@
       "anio_creacion": 123123,
       "pais_origen": "123123",
       "precio_alquiler": 333.0,
-      "alquiler": [
-        {
-          "codigo_cliente": "312",
-          "fecha": "23/6/2018"
-        }
-      ]
+      "alquiler": []
     },
     "123123": {
       "titulo": "lsd",
@@ -39,8 +34,28 @@
         {
           "codigo_cliente": "12323",
           "fecha": "17/08/2018"
+        },
+        {
+          "codigo_cliente": "12323",
+          "fecha": "17/10/2018"
+        },
+        {
+          "codigo_cliente": "312",
+          "fecha": "7/11/2018"
+        },
+        {
+          "codigo_cliente": "312",
+          "fecha": "17/10/2018"
         }
       ]
+    },
+    "arte": {
+      "titulo": "elarte",
+      "genero": "aadf",
+      "anio_creacion": 1997,
+      "pais_origen": "yhh",
+      "precio_alquiler": 33.0,
+      "alquiler": []
     }
   }
 }

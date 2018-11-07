@@ -18,4 +18,4 @@ def consultar_datos_socio():
             funciona = True
 
     print("el nombre es: " + cliente["nombre"])
-    print("la fecha de ingreso es: " + cliente["fecha"])
+    print("la fecha de ingreso es: " + cliente["fecha_alta"])
