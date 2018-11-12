@@ -1,3 +1,9 @@
+import sys
+sys.path.append('./tools')
+
+from verificar_fechas import verificar_fecha
+
+
 def generar_data(campos):
 
     datos = {}
@@ -10,6 +16,7 @@ def generar_data(campos):
             data = float(data)
 
         if (campo.__contains__("key")):
+            data = verificar_fecha(data)
             key = campo["key"]
         else:
             key = campo["label"]

@@ -26,6 +26,9 @@ def consultar_pelicula():
 
     todo = traer_todo_clientes()
 
+    if len(consulta) == 0:
+        print(" Ningun cliente ha alquilado esta pelicula ")
+
     cant = 0
 
     for r in consulta:

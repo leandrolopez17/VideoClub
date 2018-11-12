@@ -46,6 +46,14 @@
         {
           "codigo_cliente": "312",
           "fecha": "17/10/2018"
+        },
+        {
+          "codigo_cliente": "12323",
+          "fecha": "17/9/2018"
+        },
+        {
+          "codigo_cliente": "123",
+          "fecha": "17/8/2009"
         }
       ]
     },

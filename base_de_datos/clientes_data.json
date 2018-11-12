@@ -13,6 +13,14 @@
       "telefono": "123123",
       "mail": "esta",
       "direccion": "asdasdn"
+    },
+    "123": {
+      "nombre": "lean",
+      "fecha_alta": "17/03/2000",
+      "telefono": "ikasd+",
+      "mail": "aisjdn+\u00e7",
+      "direccion": "aijsd",
+      "alquiler": []
     }
   }
 }

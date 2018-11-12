@@ -21,7 +21,7 @@ def alquiler_pelicula():
 
     codigo_pelicula = modificar_peli(codigo_pelicula)
 
-    fecha = verificar_fecha()
+    fecha = verificar_fecha(None)
 
     data = {"codigo_cliente": codigo_cliente, "fecha": fecha}
 

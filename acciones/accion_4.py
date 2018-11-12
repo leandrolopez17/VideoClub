@@ -10,7 +10,7 @@ from agregar_modificar_clientes import agregar_client
 
 def agregar_a_clientes():
 
-    codigo = input(" Ingrese el codigo para agregar un cliente ")
+    codigo = input(" Ingrese el codigo del nuevo cliente ")
 
     codigo = agregar_client(codigo)
 
@@ -27,7 +27,7 @@ def clientes():
             "type": "string"
         },
         {
-            "label": "fecha de alta (aa/mm/dd)",
+            "label": "fecha de alta (dd/mm/aaaa)",
             "type": "string",
             "key": "fecha_alta"
         },

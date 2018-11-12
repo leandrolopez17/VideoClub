@@ -26,7 +26,7 @@ def clientes():
             "type": "string"
         },
         {
-            "label": "fecha de alta (aa/mm/dd)",
+            "label": "fecha de alta (dd/mm/aaaa)",
             "type": "string",
             "key": "fecha_alta"
         },
