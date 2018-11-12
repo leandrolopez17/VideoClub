@@ -49,13 +49,18 @@
         }
       ]
     },
-    "arte": {
-      "titulo": "elarte",
-      "genero": "aadf",
-      "anio_creacion": 1997,
-      "pais_origen": "yhh",
+    "lanus": {
+      "titulo": "123",
+      "genero": "123",
+      "anio_creacion": 123,
+      "pais_origen": "123",
       "precio_alquiler": 33.0,
-      "alquiler": []
+      "alquiler": [
+        {
+          "codigo_cliente": "12323",
+          "fecha": "17/09/2018"
+        }
+      ]
     }
   }
 }

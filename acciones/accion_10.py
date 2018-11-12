@@ -35,4 +35,4 @@ def consultar_pelicula():
                 print(" el cliente numero " + str(cant) +
                       " que ha alquilado " + peli)
                 for l in (todo["clientes"][s]):
-                    print(l + ": " + (todo["clientes"][s][l]))
+                    print(l + ": " + str((todo["clientes"][s][l])))
