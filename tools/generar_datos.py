@@ -1,3 +1,4 @@
+# GENERAR DATOS
 import sys
 sys.path.append('./tools')
 
@@ -23,6 +24,7 @@ def generar_data(campos):
 
         datos[key] = data
 
-    datos["alquiler"] = []
+        if campo["label"] == "titulo":
+            datos["alquiler"] = []
 
     return datos

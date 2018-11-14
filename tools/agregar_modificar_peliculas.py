@@ -1,3 +1,4 @@
+# AGREGAR O MODFICAR PELICULA
 import sys
 sys.path.append('./control_libreria')
 

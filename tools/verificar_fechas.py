@@ -1,3 +1,4 @@
+# VERIFICAR FECHAS
 from datetime import datetime, date, time, timedelta
 import calendar
 
@@ -15,7 +16,7 @@ def verificar_fecha(variable):
                 else:
                     print(" todavia no hemos llegado a esa fecha ")
             else:
-
+                fecha_str = variable
                 fecha = datetime.strptime(variable, '%d/%m/%Y')
                 if fecha < datetime.now():
                     break

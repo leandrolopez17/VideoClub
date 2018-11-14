@@ -1,61 +1,12 @@
 {
   "peliculas": {
-    "12323": {
-      "titulo": "123123",
-      "genero": "123123",
-      "anio_creacion": 123123,
-      "pais_origen": "123123",
-      "precio_alquiler": 333.0,
-      "alquiler": []
-    },
-    "123123": {
-      "titulo": "lsd",
-      "genero": "sadkas",
-      "anio_creacion": 12,
-      "pais_origen": "213",
-      "precio_alquiler": 23.0,
-      "alquiler": []
-    },
     "012": {
-      "titulo": "asd",
-      "genero": "123",
-      "anio_creacion": 23,
-      "pais_origen": "123",
-      "precio_alquiler": 23.0,
-      "alquiler": []
-    },
-    "gorila": {
-      "titulo": "gorila_en_estqa",
-      "genero": "accion",
-      "anio_creacion": 1997,
-      "pais_origen": "irlanda",
-      "precio_alquiler": 17.0,
-      "alquiler": [
-        {
-          "codigo_cliente": "12323",
-          "fecha": "17/08/2018"
-        },
-        {
-          "codigo_cliente": "12323",
-          "fecha": "17/10/2018"
-        },
-        {
-          "codigo_cliente": "312",
-          "fecha": "7/11/2018"
-        },
-        {
-          "codigo_cliente": "312",
-          "fecha": "17/10/2018"
-        },
-        {
-          "codigo_cliente": "12323",
-          "fecha": "17/9/2018"
-        },
-        {
-          "codigo_cliente": "123",
-          "fecha": "17/8/2009"
-        }
-      ]
+      "titulo": "casados",
+      "alquiler": [],
+      "genero": "aca",
+      "anio_creacion": 1898,
+      "pais_origen": "holanda",
+      "precio_alquiler": 17.0
     },
     "lanus": {
       "titulo": "123",
@@ -67,8 +18,20 @@
         {
           "codigo_cliente": "12323",
           "fecha": "17/09/2018"
+        },
+        {
+          "codigo_cliente": "hernan",
+          "fecha": "17/8/2018"
         }
       ]
+    },
+    "callee": {
+      "titulo": "callleeee",
+      "alquiler": [],
+      "genero": "aca",
+      "anio_creacion": 1997,
+      "pais_origen": "holanda",
+      "precio_alquiler": 18.0
     }
   }
 }
