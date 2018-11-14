@@ -9,11 +9,7 @@
       "precio_alquiler": 17.0
     },
     "lanus": {
-      "titulo": "123",
-      "genero": "123",
-      "anio_creacion": 123,
-      "pais_origen": "123",
-      "precio_alquiler": 33.0,
+      "titulo": "lanusss",
       "alquiler": [
         {
           "codigo_cliente": "12323",
@@ -23,15 +19,28 @@
           "codigo_cliente": "hernan",
           "fecha": "17/8/2018"
         }
-      ]
-    },
-    "callee": {
-      "titulo": "callleeee",
-      "alquiler": [],
-      "genero": "aca",
+      ],
+      "genero": "asda",
       "anio_creacion": 1997,
       "pais_origen": "holanda",
       "precio_alquiler": 18.0
+    },
+    "callee": {
+      "titulo": "calleeeee",
+      "alquiler": [
+        {
+          "codigo_cliente": "12323",
+          "fecha": "17/9/2018"
+        },
+        {
+          "codigo_cliente": "hernan",
+          "fecha": "17/10/2018"
+        }
+      ],
+      "genero": "asik",
+      "anio_creacion": 1998,
+      "pais_origen": "lasd",
+      "precio_alquiler": 19.0
     }
   }
 }

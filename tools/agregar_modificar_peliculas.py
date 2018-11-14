@@ -25,8 +25,21 @@ def modificar_peli(codigo):
         if buscar == None:
             codigo = input(
                 " ingrese el codigo nuevamente porque no se encuentra ")
-
         else:
             funciona = True
 
     return codigo
+
+
+def agarrar_alquiler(codigo):
+    funciona = False
+    while funciona == False:
+        buscar = encontrar_codigo_peliculas(codigo)
+        if buscar == None:
+            codigo = input(
+                " ingrese el codigo nuevamente porque no se encuentra ")
+        else:
+            alquiler = buscar["alquiler"]
+            funciona = True
+
+    return alquiler

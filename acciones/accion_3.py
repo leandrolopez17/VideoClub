@@ -7,6 +7,7 @@ sys.path.append('./tools')
 from peliculas import subir_diccionario, encontrar_codigo_peliculas
 from generar_datos import generar_data
 from agregar_modificar_peliculas import modificar_peli
+from agregar_modificar_peliculas import agarrar_alquiler
 
 
 def modificar_peliculas():
@@ -15,7 +16,11 @@ def modificar_peliculas():
 
     codigo = modificar_peli(codigo)
 
+    alquiler = agarrar_alquiler(codigo)
+
     datos = peliculas()
+
+    datos["alquiler"] = alquiler
 
     return subir_diccionario(datos, codigo)
 
