@@ -41,6 +41,14 @@
       "anio_creacion": 1998,
       "pais_origen": "lasd",
       "precio_alquiler": 19.0
+    },
+    "112233": {
+      "titulo": "JODHA AKBAR",
+      "alquiler": [],
+      "genero": "AVENTURA",
+      "anio_creacion": 2000,
+      "pais_origen": "INDIA",
+      "precio_alquiler": 200.0
     }
   }
 }

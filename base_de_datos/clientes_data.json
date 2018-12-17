@@ -20,6 +20,13 @@
       "telefono": "131231",
       "mail": "omdsd",
       "direccion": "osdf"
+    },
+    "123": {
+      "nombre": "PEPE",
+      "fecha_alta": "14/10/2018",
+      "telefono": "1234567890",
+      "mail": "W@GMAIL.COM",
+      "direccion": "EEEE"
     }
   }
 }
